@@ -208,7 +208,7 @@ nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
 	width: 24px;
 	position: absolute;
-	height: 2px;
+	height: 17px;
 	background-color: #b3d1b3;
 	top: 0;
 	left: 0;
@@ -294,6 +294,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 140px 0 50px 0;
   position: relative;
   background-color:   #C4BCA7 ;
+  
 }
 .skill-bx {
   background: #FFFCF2  ;
@@ -301,6 +302,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 50px 60px;
   margin-top: -60px;
+}
+
+.skill img {
+  width: 40%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  padding:20px; 
+  border-radius: 50px;
+  display: block; 
 }
 .skill h2 {
 	font-size: 45px;
