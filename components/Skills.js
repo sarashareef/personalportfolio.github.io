@@ -2,6 +2,7 @@ import {Container, Col, Row} from "react-bootstrap";
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
+import skillsimage from "../assets/img/skills2.png"
 
 export const Skills = () => {
   const responsive = {
@@ -32,6 +33,9 @@ export const Skills = () => {
                     <div className="skill-bx">
                         <h2>Skills</h2>
                         <p>I have a solid understanding of multiple programming languages, including Python, Java, JavaScript, HTML, and CSS. In building this portfolio, I utilized React and put considerable effort into optimizing my code to deliver the best possible user experience. I am proficient in using popular code editors such as Visual Studio Code and Eclipse. Additionally, I have hands-on experience with AWS Cloud and Git for effective application deployment and version control management.<br></br> </p>
+                    </div>
+                    <div className="skill-img">
+                      <img src={skillsimage} alt = "Skills Image"></img>
                     </div>
                 </Col>
             </Row>
