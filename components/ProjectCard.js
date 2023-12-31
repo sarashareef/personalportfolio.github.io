@@ -11,8 +11,8 @@ export const ProjectCard = ({ title, description, imgUrl, description2, descript
           <h4>{title}</h4>
           <span>{description}</span><br>
           </br>
-          <a href = "https://github.com/sarashareef/WeatherWiz-Pro/blob/main/weather.py"><span>{description2}</span></a>
-          <a href = "https://github.com/sarashareef/TaxMate"> <span>{description3}</span></a>
+          <a href = "https://github.com/sarashareef/TaxMate"><span>{description2}</span></a>
+          <a href = "https://github.com/sarashareef/WeatherWiz-Pro/blob/main/weather.py"> <span>{description3}</span></a>
         </div>
       </div>
     </Col>
